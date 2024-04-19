@@ -2,15 +2,16 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    jest: true
   },
   extends: ['plugin:react/recommended', 'airbnb'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
-      jsx: true,
+      jsx: true
     },
     ecmaVersion: 'latest',
-    sourceType: 'module',
+    sourceType: 'module'
   },
   plugins: ['react', '@typescript-eslint'],
   rules: {
@@ -19,7 +20,7 @@ module.exports = {
     indent: [2, 2],
     'react/jsx-filename-extension': [
       2,
-      { extensions: ['.js', '.jsx', '.tsx'] },
+      { extensions: ['.js', '.jsx', '.tsx'] }
     ],
     'import/no-unresolved': 'off',
     'import/prefer-default-export': 'off',
@@ -32,8 +33,11 @@ module.exports = {
     'import/extensions': 'off',
     'import/no-extraneous-dependencies': 'off',
     'no-underscore-dangle': 'off',
+    'linebreak-style': 0,
+    'comma-dangle': 'off',
+    '@typescript-eslint/comma-dangle': 'off'
   },
   globals: {
-    __IS_DEV__: true,
-  },
+    __IS_DEV__: true
+  }
 };

@@ -35,7 +35,9 @@ module.exports = {
     'no-underscore-dangle': 'off',
     'linebreak-style': 0,
     'comma-dangle': 'off',
-    '@typescript-eslint/comma-dangle': 'off'
+    '@typescript-eslint/comma-dangle': 'off',
+    'max-len': ['error', { ignoreComments: true, code: 110 }],
+    'react/jsx-wrap-multilines': 0
   },
   globals: {
     __IS_DEV__: true

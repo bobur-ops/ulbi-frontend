@@ -25,3 +25,5 @@ jobs:
         run: npm run lint:ts
       - name: unit teting
         run: npm run test:unit
+      - name: storybook build
+        run: npm run test:storybook

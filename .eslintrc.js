@@ -43,10 +43,6 @@ module.exports = {
     'linebreak-style': 0,
     'comma-dangle': 'off',
     '@typescript-eslint/comma-dangle': 'off',
-    // 'i18next/no-literal-string': [
-    //  'error',
-    //  { markupOnly: true, ignoreAttribute: ['data-testid'] }
-    //    ],
     'max-len': [
       'error',
       {
@@ -54,7 +50,8 @@ module.exports = {
         code: 110
       }
     ],
-    'react/jsx-wrap-multilines': 0
+    'react/jsx-wrap-multilines': 0,
+    'object-curly-newline': 'off'
   },
   globals: {
     __IS_DEV__: true

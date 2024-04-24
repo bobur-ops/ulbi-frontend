@@ -1,5 +1,5 @@
 {
-  "name": "ulbi",
+  "name": "ulbi-frontend",
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
